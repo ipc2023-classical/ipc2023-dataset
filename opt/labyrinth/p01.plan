@@ -1,0 +1,10 @@
+;; Cost: 5
+;; Length: 8
+(start-move-card-south card1 pos1 pos2 card7 pos1) ;; cost: 1
+(move-card-south card7 pos1 pos1 card4 pos0 pos2) ;; cost: 0
+(stop-move-card-south card4 pos1 pos0 pos1 card1) ;; cost: 0
+(move-east card0 pos0 pos0 e card1 pos1 pos0 w) ;; cost: 1
+(move-east card1 pos1 pos0 e card2 pos2 pos0 w) ;; cost: 1
+(move-south card2 pos2 pos0 s card5 pos2 pos1 n) ;; cost: 1
+(move-south card5 pos2 pos1 s card8 pos2 pos2 n) ;; cost: 1
+(leave card8 pos2 pos2) ;; cost: 0

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="136" height="136" viewBox="0 0 68 68">
+<defs>
+</defs>
+<rect x="0" y="0" width="68" height="68" fill="white" />
+<rect x="2" y="2" width="20" height="20" fill="black" stroke="none" />
+<rect x="8.666666666666668" y="8.666666666666668" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="15.333333333333332" y="8.666666666666668" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="8.666666666666666" y="15.333333333333332" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="2" y="8.666666666666666" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<text x="17.666666666666668" y="21.0" font-size="4" fill="white" stroke="white" stroke-width="0.25">0</text>
+<rect x="2" y="24" width="20" height="20" fill="black" stroke="none" />
+<rect x="8.666666666666668" y="30.666666666666668" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="15.333333333333332" y="30.666666666666668" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="8.666666666666666" y="37.33333333333333" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="2" y="30.666666666666664" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<text x="17.666666666666668" y="43.0" font-size="4" fill="white" stroke="white" stroke-width="0.25">3</text>
+<rect x="2" y="46" width="20" height="20" fill="black" stroke="none" />
+<rect x="8.666666666666668" y="52.666666666666664" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="8.666666666666668" y="46" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="2" y="52.666666666666664" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<text x="17.666666666666668" y="65.0" font-size="4" fill="white" stroke="white" stroke-width="0.25">6</text>
+<circle cx="12.0" cy="12.0" r="2.75" fill="blue" />
+<rect x="52.666666666666664" y="59.33333333333333" width="6.666666666666667" height="6.666666666666667" fill="yellow" stroke="none" />
+<rect x="24" y="2" width="20" height="20" fill="black" stroke="none" />
+<rect x="30.666666666666668" y="8.666666666666668" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="37.33333333333333" y="8.666666666666668" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="30.666666666666664" y="15.333333333333332" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="24" y="8.666666666666666" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<text x="39.66666666666667" y="21.0" font-size="4" fill="white" stroke="white" stroke-width="0.25">1</text>
+<rect x="24" y="24" width="20" height="20" fill="black" stroke="none" />
+<rect x="30.666666666666668" y="30.666666666666668" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="30.666666666666668" y="24" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="37.33333333333333" y="30.666666666666668" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="30.666666666666664" y="37.33333333333333" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<text x="39.66666666666667" y="43.0" font-size="4" fill="white" stroke="white" stroke-width="0.25">4</text>
+<rect x="24" y="46" width="20" height="20" fill="black" stroke="none" />
+<rect x="30.666666666666668" y="52.666666666666664" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="30.666666666666668" y="46" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="37.33333333333333" y="52.666666666666664" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<text x="39.66666666666667" y="65.0" font-size="4" fill="white" stroke="white" stroke-width="0.25">7</text>
+<circle cx="12.0" cy="12.0" r="2.75" fill="blue" />
+<rect x="52.666666666666664" y="59.33333333333333" width="6.666666666666667" height="6.666666666666667" fill="yellow" stroke="none" />
+<rect x="46" y="2" width="20" height="20" fill="black" stroke="none" />
+<rect x="52.666666666666664" y="8.666666666666668" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="59.33333333333333" y="8.666666666666668" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="52.666666666666664" y="15.333333333333332" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="46" y="8.666666666666666" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<text x="61.66666666666667" y="21.0" font-size="4" fill="white" stroke="white" stroke-width="0.25">2</text>
+<rect x="46" y="24" width="20" height="20" fill="black" stroke="none" />
+<rect x="52.666666666666664" y="30.666666666666668" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="52.666666666666664" y="24" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="52.666666666666664" y="37.33333333333333" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="46" y="30.666666666666664" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<text x="61.66666666666667" y="43.0" font-size="4" fill="white" stroke="white" stroke-width="0.25">5</text>
+<rect x="46" y="46" width="20" height="20" fill="black" stroke="none" />
+<rect x="52.666666666666664" y="52.666666666666664" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="52.666666666666664" y="46" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="52.666666666666664" y="59.33333333333333" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<rect x="46" y="52.666666666666664" width="6.666666666666667" height="6.666666666666667" fill="gray" stroke="none" />
+<text x="61.66666666666667" y="65.0" font-size="4" fill="white" stroke="white" stroke-width="0.25">8</text>
+<circle cx="12.0" cy="12.0" r="2.75" fill="blue" />
+<rect x="52.666666666666664" y="59.33333333333333" width="6.666666666666667" height="6.666666666666667" fill="yellow" stroke="none" />
+<path d="M12.0,12.0 L34.0,12.0" stroke="blue" />
+<path d="M34.0,12.0 L56.0,12.0" stroke="blue" />
+<path d="M56.0,12.0 L56.0,34.0" stroke="blue" />
+<path d="M56.0,34.0 L34.0,34.0" stroke="blue" />
+<path d="M34.0,34.0 L34.0,56.0" stroke="blue" />
+<path d="M34.0,56.0 L56.0,56.0" stroke="blue" />
+<path d="M12.0,12.0 L34.0,12.0" stroke="red" />
+<path d="M34.0,12.0 L56.0,12.0" stroke="red" />
+<path d="M56.0,12.0 L56.0,34.0" stroke="red" />
+<path d="M56.0,34.0 L56.0,56.0" stroke="red" />
+</svg>

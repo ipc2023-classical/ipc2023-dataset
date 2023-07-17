@@ -1,0 +1,23 @@
+;; Optimal cost: 21
+;; Length: 21
+(move robot-01 location-0021 location-0020 battery-0005 battery-0004) ;; cost: 1
+(move robot-03 location-0031 location-0030 battery-0004 battery-0003) ;; cost: 1
+(move robot-01 location-0020 location-0023 battery-0004 battery-0003) ;; cost: 1
+(move robot-04 location-0024 location-0030 battery-0005 battery-0004) ;; cost: 1
+(move robot-01 location-0023 location-0018 battery-0003 battery-0002) ;; cost: 1
+(recharge robot-04 robot-03 location-0030 battery-0004 battery-0003 battery-0003 battery-0004) ;; cost: 1
+(move robot-04 location-0030 location-0003 battery-0003 battery-0002) ;; cost: 1
+(move robot-04 location-0003 location-0018 battery-0002 battery-0001) ;; cost: 1
+(move robot-03 location-0030 location-0029 battery-0004 battery-0003) ;; cost: 1
+(move robot-03 location-0029 location-0018 battery-0003 battery-0002) ;; cost: 1
+(move robot-03 location-0018 location-0012 battery-0002 battery-0001) ;; cost: 1
+(move robot-01 location-0018 location-0003 battery-0002 battery-0001) ;; cost: 1
+(move robot-02 location-0025 location-0039 battery-0003 battery-0002) ;; cost: 1
+(move robot-04 location-0018 location-0012 battery-0001 battery-0000) ;; cost: 1
+(move robot-01 location-0003 location-0030 battery-0001 battery-0000) ;; cost: 1
+(move robot-03 location-0012 location-0002 battery-0001 battery-0000) ;; cost: 1
+(move robot-00 location-0011 location-0039 battery-0003 battery-0002) ;; cost: 1
+(move robot-00 location-0039 location-0038 battery-0002 battery-0001) ;; cost: 1
+(move robot-00 location-0038 location-0010 battery-0001 battery-0000) ;; cost: 1
+(move robot-02 location-0039 location-0036 battery-0002 battery-0001) ;; cost: 1
+(move robot-02 location-0036 location-0018 battery-0001 battery-0000) ;; cost: 1

@@ -1,0 +1,13 @@
+;; Cost: 12
+(Rrev)
+(Frev)
+(Drev)
+(Brev)
+(R)
+(D)
+(Frev)
+(Brev)
+(U)
+(R)
+(Frev)
+(Urev)

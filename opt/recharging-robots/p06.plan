@@ -1,0 +1,16 @@
+;; Cost: 11
+;; Length: 14
+(move robot-00 location-0030 location-0011 battery-0007 battery-0006)
+(move robot-00 location-0011 location-0008 battery-0006 battery-0005)
+(move robot-01 location-0012 location-0008 battery-0002 battery-0001)
+(recharge robot-00 robot-01 location-0008 battery-0005 battery-0004 battery-0001 battery-0002)
+(recharge robot-00 robot-01 location-0008 battery-0004 battery-0003 battery-0002 battery-0003)
+(move robot-00 location-0008 location-0011 battery-0003 battery-0002)
+(move robot-00 location-0011 location-0025 battery-0002 battery-0001)
+(move robot-00 location-0025 location-0003 battery-0001 battery-0000)
+(stop-and-guard robot-00 location-0003)
+(move robot-01 location-0008 location-0011 battery-0003 battery-0002)
+(move robot-01 location-0011 location-0018 battery-0002 battery-0001)
+(move robot-01 location-0018 location-0017 battery-0001 battery-0000)
+(stop-and-guard robot-01 location-0017)
+(verify-guard-config config-00)

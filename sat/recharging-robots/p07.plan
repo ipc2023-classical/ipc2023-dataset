@@ -1,0 +1,34 @@
+;; Optimal cost: 26
+;; Length: 32
+(move robot-01 location-0043 location-0044 battery-0021 battery-0020) ;; cost: 1
+(move robot-01 location-0044 location-0031 battery-0020 battery-0019) ;; cost: 1
+(move robot-01 location-0031 location-0030 battery-0019 battery-0018) ;; cost: 1
+(recharge robot-01 robot-00 location-0030 battery-0018 battery-0017 battery-0001 battery-0002) ;; cost: 1
+(recharge robot-01 robot-00 location-0030 battery-0017 battery-0016 battery-0002 battery-0003) ;; cost: 1
+(recharge robot-01 robot-00 location-0030 battery-0016 battery-0015 battery-0003 battery-0004) ;; cost: 1
+(recharge robot-01 robot-00 location-0030 battery-0015 battery-0014 battery-0004 battery-0005) ;; cost: 1
+(recharge robot-01 robot-00 location-0030 battery-0014 battery-0013 battery-0005 battery-0006) ;; cost: 1
+(move robot-00 location-0030 location-0033 battery-0006 battery-0005) ;; cost: 1
+(move robot-00 location-0033 location-0003 battery-0005 battery-0004) ;; cost: 1
+(move robot-00 location-0003 location-0050 battery-0004 battery-0003) ;; cost: 1
+(move robot-00 location-0050 location-0053 battery-0003 battery-0002) ;; cost: 1
+(stop-and-guard robot-00 location-0053) ;; cost: 0
+(move robot-01 location-0030 location-0025 battery-0013 battery-0012) ;; cost: 1
+(move robot-01 location-0025 location-0048 battery-0012 battery-0011) ;; cost: 1
+(move robot-01 location-0048 location-0049 battery-0011 battery-0010) ;; cost: 1
+(move robot-01 location-0049 location-0021 battery-0010 battery-0009) ;; cost: 1
+(move robot-01 location-0021 location-0034 battery-0009 battery-0008) ;; cost: 1
+(stop-and-guard robot-01 location-0034) ;; cost: 0
+(verify-guard-config config-00) ;; cost: 0
+(move robot-01 location-0034 location-0035 battery-0008 battery-0007) ;; cost: 1
+(move robot-01 location-0035 location-0036 battery-0007 battery-0006) ;; cost: 1
+(move robot-01 location-0036 location-0053 battery-0006 battery-0005) ;; cost: 1
+(move robot-01 location-0053 location-0050 battery-0005 battery-0004) ;; cost: 1
+(move robot-01 location-0050 location-0051 battery-0004 battery-0003) ;; cost: 1
+(move robot-01 location-0051 location-0057 battery-0003 battery-0002) ;; cost: 1
+(move robot-01 location-0057 location-0056 battery-0002 battery-0001) ;; cost: 1
+(stop-and-guard robot-01 location-0056) ;; cost: 0
+(move robot-00 location-0053 location-0052 battery-0002 battery-0001) ;; cost: 1
+(move robot-00 location-0052 location-0027 battery-0001 battery-0000) ;; cost: 1
+(stop-and-guard robot-00 location-0027) ;; cost: 0
+(verify-guard-config config-01) ;; cost: 0

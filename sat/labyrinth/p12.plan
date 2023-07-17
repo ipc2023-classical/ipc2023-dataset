@@ -1,0 +1,36 @@
+;; Cost: 15
+;; Length: 34
+(start-move-card-north card46 pos4 pos0 card4 pos1) ;; cost: 1
+(move-card-north card4 pos4 pos1 card11 pos2 pos0) ;; cost: 0
+(move-card-north card11 pos4 pos2 card19 pos3 pos1) ;; cost: 0
+(move-card-north card19 pos4 pos3 card25 pos4 pos2) ;; cost: 0
+(move-card-north card25 pos4 pos4 card32 pos5 pos3) ;; cost: 0
+(move-card-north card32 pos4 pos5 card39 pos6 pos4) ;; cost: 0
+(stop-move-card-north card39 pos4 pos6 pos5 card46) ;; cost: 0
+(start-move-card-south card3 pos3 pos6 card45 pos5) ;; cost: 1
+(move-card-south card45 pos3 pos5 card38 pos4 pos6) ;; cost: 0
+(move-card-south card38 pos3 pos4 card31 pos3 pos5) ;; cost: 0
+(move-card-south card31 pos3 pos3 card24 pos2 pos4) ;; cost: 0
+(move-card-south card24 pos3 pos2 card18 pos1 pos3) ;; cost: 0
+(move-card-south card18 pos3 pos1 card10 pos0 pos2) ;; cost: 0
+(stop-move-card-south card10 pos3 pos0 pos1 card3) ;; cost: 0
+(start-move-card-east card14 pos6 pos2 card20 pos5) ;; cost: 1
+(move-card-east card20 pos5 pos2 card19 pos4 pos6) ;; cost: 0
+(move-card-east card19 pos4 pos2 card18 pos3 pos5) ;; cost: 0
+(move-card-east card18 pos3 pos2 card17 pos2 pos4) ;; cost: 0
+(move-card-east card17 pos2 pos2 card16 pos1 pos3) ;; cost: 0
+(move-card-east card16 pos1 pos2 card15 pos0 pos2) ;; cost: 0
+(stop-move-card-east card15 pos0 pos2 pos1 card14) ;; cost: 0
+(move-south card0 pos0 pos0 s card7 pos0 pos1 n) ;; cost: 1
+(move-south card7 pos0 pos1 s card14 pos0 pos2 n) ;; cost: 1
+(move-south card14 pos0 pos2 s card21 pos0 pos3 n) ;; cost: 1
+(move-south card21 pos0 pos3 s card28 pos0 pos4 n) ;; cost: 1
+(move-south card28 pos0 pos4 s card35 pos0 pos5 n) ;; cost: 1
+(move-south card35 pos0 pos5 s card42 pos0 pos6 n) ;; cost: 1
+(move-east card42 pos0 pos6 e card43 pos1 pos6 w) ;; cost: 1
+(move-east card43 pos1 pos6 e card44 pos2 pos6 w) ;; cost: 1
+(move-east card44 pos2 pos6 e card45 pos3 pos6 w) ;; cost: 1
+(move-east card45 pos3 pos6 e card46 pos4 pos6 w) ;; cost: 1
+(move-east card46 pos4 pos6 e card47 pos5 pos6 w) ;; cost: 1
+(move-east card47 pos5 pos6 e card48 pos6 pos6 w) ;; cost: 1
+(leave card48 pos6 pos6) ;; cost: 0

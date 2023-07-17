@@ -1,0 +1,11 @@
+;; Cost: 9
+;; Plan:
+(recharge robot-00 robot-01 location-0027 battery-0005 battery-0004 battery-0000 battery-0001)
+(recharge robot-00 robot-01 location-0027 battery-0004 battery-0003 battery-0001 battery-0002)
+(recharge robot-00 robot-01 location-0027 battery-0003 battery-0002 battery-0002 battery-0003)
+(recharge robot-00 robot-01 location-0027 battery-0002 battery-0001 battery-0003 battery-0004)
+(move robot-00 location-0027 location-0028 battery-0001 battery-0000)
+(move robot-01 location-0027 location-0026 battery-0004 battery-0003)
+(move robot-01 location-0026 location-0009 battery-0003 battery-0002)
+(move robot-01 location-0009 location-0021 battery-0002 battery-0001)
+(move robot-01 location-0021 location-0003 battery-0001 battery-0000)
