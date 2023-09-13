@@ -1,0 +1,41 @@
+Bootstrap: docker
+From: alpine:latest
+Stage: build
+
+
+%setup
+    git clone --branch ipc23-translate --depth 1 https://gitlab.com/danfis/cpddl $APPTAINER_ROOTFS/cpddl
+
+%post
+    apk update
+    apk upgrade
+    apk add bash musl-dev make gcc g++ git
+    
+    cd /cpddl
+    make -j8
+    make -C bin pddl-ipc23-translate
+    mv /cpddl/bin/pddl-ipc23-translate /
+    strip --strip-all /pddl-ipc23-translate
+
+
+Bootstrap: docker
+From: alpine:latest
+Stage: run
+
+%files from build
+    /pddl-ipc23-translate
+    
+%post
+    apk update
+    apk upgrade
+    apk add bash
+
+
+%runscript
+    /pddl-ipc23-translate $@
+
+%labels
+Name    Translator used for normalization of some IPC-23 domains
+Authors Daniel Fiser <danfis@danfis.cz>
+License BSD
+
