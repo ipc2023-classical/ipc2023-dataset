@@ -1,10 +1,12 @@
 # Dataset of International Planning Competition 2023 Classical Tracks
 
-IPC 2023 features three classical tracks: Optimal track, Satisficing track, and
-Agile track. Satisficing and Agile tracks used exactly the same dataset. All
-tracks consist of the same set of 7 newly designed domains. All domains except
-one come with a generator and some means of obtaining either optimal plan, or
-the cost of the optimal plan, or an upper bound on the cost of the optimal plan.
+[IPC 2023](https://ipc2023-classical.github.io/) featured three classical
+tracks: Optimal track, Satisficing track, and Agile track. Satisficing and Agile
+tracks used exactly the same dataset. All tracks consist of the same set of 7
+newly designed domains, but optimal and satisficing tracks have a different set
+of tasks. All domains except one come with a generator and some means of
+obtaining either optimal plan, or the cost of the optimal plan, or an upper
+bound on the cost of the optimal plan.
 - [Folding](https://github.com/ipc2023-classical/domain-folding)
 - [Labyrinth](https://github.com/ipc2023-classical/domain-labyrinth)
 - [Quantum Circuit Layout Synthesis](https://github.com/ipc2023-classical/domain-quantum-layout)
@@ -14,16 +16,17 @@ the cost of the optimal plan, or an upper bound on the cost of the optimal plan.
 - [Slitherlink](https://github.com/ipc2023-classical/domain-slitherlink)
 
 
-Since some (if not most) planners have insufficient support of some PDDL
-features used in the new domains, we provided a normalized version of the PDDL
-tasks for four domains: folding, recharging-robots, rubiks-cube, and
+Since some (if not most) planners competing in IPC 2023 had insufficient support
+of some PDDL features used in the new domains, we provided a normalized version
+of the PDDL tasks for four domains: folding, recharging-robots, rubiks-cube, and
 slitherlink. The normalization was done on the PDDL level, i.e., it is a
 translation from PDDL domain and problem files to another PDDL domain and
 problem files. The translation compiles away disjunctions, quantifiers, and
 negative conditions appearing the in the goal condition.
 
-The translator used in IPC 2023 can be built as an [apptainer](https://apptainer.org)
-image using the `ipc23-normalize.def` recipe:
+The [translator](https://gitlab.com/danfis/cpddl/-/tree/ipc23-translate) used in
+IPC 2023 can be built as an [apptainer](https://apptainer.org) image using the
+`ipc23-normalize.def` recipe:
 ```sh
   $ sudo apptainer build ipc23-normalize.sif ipc23-normalize.def
 ```
